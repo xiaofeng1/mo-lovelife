@@ -40,3 +40,7 @@ npm run build:prod
 
 
 
+## 文件夹 node_modules
+里面自己去安装  
+# 安装依赖
+cnpm install
