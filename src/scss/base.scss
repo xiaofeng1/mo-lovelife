@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import "var";
+@import "mixin";
+//by cerate zhangyufeng  *purpose:基本共用  *QQ：598981745  *time：20160802
+body,div,p,ul,li,h3,h2,h1,h4,a{
+	margin:0;
+	padding:0;
+}
+fieldset,img{
+	border:0;
+}
+:focus{
+	outline:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+li{
+	list-style:none;
+}
+q:before,q:after{
+	content:'';
+}
+del,ins,a{
+	text-decoration:none;
+}
+body{
+	text-align:left;
+	font:'Microsoft Yahei','微软雅黑','宋体',Tahoma,Arial,Helvetica,STHeiti;	
+	color: $color-666;
+	background-color: $color-f5f;
+}
+img{
+	vertical-align:top;
+}
+.clear{
+	clear: both;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+a{
+	color: $color-666;
+}
+.l{
+	float:left;
+}
+.r{
+	float:right;
+}
+.t-r{
+	text-align:right;
+}
+.t-c{
+	text-align:center;
+}
+.opacity5{
+	opacity:.5;
+}
+.v-m{
+	vertical-align:middle;
+}
+.pre{
+	position: relative;
+}
+.w100{
+	width:100%;
+}
+// a{
+// 	-webkit-tap-highlight-color:rgba(0, 0, 0, 0); 
+// }
